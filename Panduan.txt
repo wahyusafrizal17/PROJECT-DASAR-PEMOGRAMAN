@@ -1,0 +1,26 @@
+PROJECT DASAR PEMROGRAMAN
+Spesifikasi Aplikas
+
+1. Pengguna harus melewati login untuk bisa masuk ke aplikasi ini
+
+2. Pengguna aplikasi ini terdiri dari 3 jenis, yaitu kataers (hanya bisa mengakses fitur olah kata), angkaers (hanya bisa mengakses olah angka) dan allers (bisa mengakses semua fitur).
+
+3. Aplikasi menampilkan menu fitur yang bisa diakses oleh pengguna sesuai jenisnya masingmasing, pengguna dapat memilih fitur dalam menu dan memanggil fitur yang sesuai untuk dijalankan.
+
+4. Fitur-fitur olah kata yang disediakan oleh aplikasi ini adalah :
+a. Hitung Huruf: pengguna menginputkan kalimat, aplikasi menampilkan jumlah huruf dalam kalimat tersebut
+b.Ubah Huruf: pengguna menginputkan kalimat, aplikasi menampilkan ulang kalimat tersebut dalam bentuk huruf besar (capital) semua
+c. Balik Kalimat: pengguna menginputkan kalimat, aplikasi menampilkan kalimat dalam bentuk terbalik. Contoh: Input: Politeknik TEDC Bandung, Output: gnudnaB CDET kinketiloP
+
+5. Fitur-fitur olah angka yang disediakan oleh aplikasi
+ini adalah :
+a. Konversi Angka: pengguna menginputkan sebuah angka decimal, aplikasi menampilkan angka dalam bentuk biner dan hexadecimal
+b. Faktorial: pengguna menginputkan sebuah angka, aplikasi menampilkan nilai faktorialnya
+c. Urut Angka: pengguna menginputkan beberapa angka, aplikasi mengurutkan angka dari terkeci ke terbesar dan menampilkan hasilnya
+
+
+Tugas Kelompok
+STAGE 1: Membuat rencana kerja pelaksanaan tugas yang terdiri timeline
+STAGE 2: Membuat Algoritma/flowchart dari aplikasi yang akan dibangun
+STAGE 3: Membuat source-code dan melakukan pengujian
+STAGE 4: Membuat video tentang pelaksanaan tugas dan penjelasan aplikasi

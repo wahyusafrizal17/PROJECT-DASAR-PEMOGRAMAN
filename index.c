@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//mmk
 char username[10], pass[10];
 
 void mainmenu(menu){
