@@ -41,13 +41,13 @@ void print_all(char warehouse[10]){
             printf("Pilih Menu: "); scanf("%d", &menu);
         switch(menu) {
             case 1:
-                menuSatu();
+                KonversiAngka();
                 break;
             case 2:
-                menuDua();
+                Faktorial();
                 break;
             case 3:
-                menuTiga();
+                UrutAngka();
                 break;
             case 4:
                 break;
