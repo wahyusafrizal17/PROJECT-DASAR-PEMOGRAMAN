@@ -1,6 +1,7 @@
 #include <stdio.h>
+#include <string.h>
 #include "menu.c"
-// #include "kata.c"
+#include "kata.c"
 // #include "angka.c"
 
 char username[10], pass[10];

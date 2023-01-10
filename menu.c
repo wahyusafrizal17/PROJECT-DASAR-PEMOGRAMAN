@@ -13,13 +13,13 @@ void print_all(char warehouse[10]){
             printf("Pilih Menu: "); scanf("%d", &menu);
         switch(menu) {
             case 1:
-                menuSatu();
+                hitungHuruf();
                 break;
             case 2:
-                menuDua();
+                ubahHuruf();
                 break;
             case 3:
-                menuTiga();
+                balikHuruf();
                 break;
             case 4:
                 break;
