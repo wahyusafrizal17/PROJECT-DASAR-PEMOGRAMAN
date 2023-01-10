@@ -1,11 +1,10 @@
 void hitungHuruf(){
-    int kata();
     char kalimat[100];
     int jumlahKarakter;
 
     printf("Program Menghitung Jumlah Karakter\n\n");
     printf("Input String : ");
-    gets(kalimat);
+    scanf("%s", &kalimat);
 
      jumlahKarakter = strlen(kalimat);
      printf("Jumlah Karakter : %d", jumlahKarakter);
@@ -21,7 +20,7 @@ void ubahHuruf()
     char c;
 
     printf("Masukkan kata: ");
-    scanf("%s",&input);
+    scanf("%s", &input);
 
 
     while(input[i])
@@ -35,13 +34,11 @@ void ubahHuruf()
 
 void balikHuruf()
 {
-int main();
-
-  char huruf[1000], hasil[1000];
+  char huruf[100], hasil[100];
   int i, jumlahstring, jumlah = 0;
 
   printf("Masukkan sebuah string: ");
-  fgets(huruf, sizeof(huruf));
+  scanf("%s", &huruf);
 
   while (huruf[jumlah] != '\0'){
     jumlah++;
