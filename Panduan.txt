@@ -1,5 +1,5 @@
 PROJECT DASAR PEMROGRAMAN
-Spesifikasi Aplikas
+Spesifikasi aplikasi
 
 1. Pengguna harus melewati login untuk bisa masuk ke aplikasi ini
 
