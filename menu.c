@@ -1,6 +1,8 @@
 void print_all(char warehouse[10]){	
     int menu;
-	if(warehouse = "menuKata"){
+
+	if(warehouse = "menuKata")
+    {
         
         do {
             printf("\n\n");
@@ -28,7 +30,8 @@ void print_all(char warehouse[10]){
             
         return 0;
         
-	}else if(warehouse = "menuAngka"){
+	}else if(warehouse = "menuAngka")
+    {
 
         do {
             printf("\n\n");
@@ -41,6 +44,7 @@ void print_all(char warehouse[10]){
             printf("Pilih Menu: "); scanf("%d", &menu);
         switch(menu) {
             case 1:
+<<<<<<< Updated upstream
                 menuSatu();
                 break;
             case 2:
@@ -48,6 +52,15 @@ void print_all(char warehouse[10]){
                 break;
             case 3:
                 menuTiga();
+=======
+                konversiAngka();
+                break;
+            case 2:
+                faktorial();
+                break;
+            case 3:
+                urutAngka();
+>>>>>>> Stashed changes
                 break;
             case 4:
                 break;
@@ -55,6 +68,7 @@ void print_all(char warehouse[10]){
         } while (menu != 4);
             
         return 0;
+        
 	}else if(warehouse = "menuSemua"){
         do {
             printf("\n\n");
