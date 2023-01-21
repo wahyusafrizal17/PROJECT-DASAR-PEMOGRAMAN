@@ -44,31 +44,13 @@ void print_all(char warehouse[10]){
             printf("Pilih Menu: "); scanf("%d", &menu);
         switch(menu) {
             case 1:
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-                menuSatu();
-=======
                 KonversiAngka();
->>>>>>> AlmaSulaiman
                 break;
             case 2:
                 Faktorial();
                 break;
             case 3:
-<<<<<<< HEAD
-                menuTiga();
-=======
-                konversiAngka();
-                break;
-            case 2:
-                faktorial();
-                break;
-            case 3:
-                urutAngka();
->>>>>>> Stashed changes
-=======
                 UrutAngka();
->>>>>>> AlmaSulaiman
                 break;
             case 4:
                 break;
