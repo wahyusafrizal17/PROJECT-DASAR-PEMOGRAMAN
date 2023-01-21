@@ -1,14 +1,24 @@
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 
 void konversiAngka(){
+=======
+#include <math.h>
+
+void KonversiAngka(){
+>>>>>>> AlmaSulaiman
     long int D;
     unsigned long int Mulai, B;
 
     printf("## Program Bahasa C Konversi Angka ## \n");
     printf("=========================================== \n\n");
+<<<<<<< HEAD
     printf ("masukkan bilangan :");
     scanf ("%ld",&D);
+=======
+    printf ("masukkan bilangan :");scanf ("%ld",&D);
+>>>>>>> AlmaSulaiman
     printf ("\n");
 
     printf("nilai binernya =");
@@ -21,7 +31,11 @@ void konversiAngka(){
     printf ("nilai hexadesimalnya = %lx\n",D);
 }
 
+<<<<<<< HEAD
 void faktorial(){
+=======
+void Faktorial(){
+>>>>>>> AlmaSulaiman
     printf("## Program Bahasa C Menghitung Faktorial ## \n");
     printf("=========================================== \n\n");
     
@@ -39,7 +53,11 @@ void faktorial(){
     return 0;
 }
 
+<<<<<<< HEAD
 void urutAngka(){
+=======
+void UrutAngka(){
+>>>>>>> AlmaSulaiman
      int i,j,n,t, A[100];
     printf("Masukkan banyak data : "); scanf("%d", &n);
 
@@ -70,5 +88,9 @@ void urutAngka(){
 
     return 0;
 
+<<<<<<< HEAD
 }
 >>>>>>> Stashed changes
+=======
+}
+>>>>>>> AlmaSulaiman
