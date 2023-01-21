@@ -1,9 +1,3 @@
-// <<<<<<< HEAD
-// <<<<<<< Updated upstream
-// =======
-
-// void konversiAngka(){
-// =======
 #include <math.h>
 
 void KonversiAngka(){

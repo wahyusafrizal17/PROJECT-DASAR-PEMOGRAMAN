@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <string.h>
-#include "menu.c"
-#include "kata.c"
-#include "angka.c"
+#include "function/kata.c"
+#include "function/angka.c"
+#include "menu/angka.c"
+#include "menu/kata.c"
+#include "menu/semua.c"
 
 char username[10], pass[10];
 
@@ -12,20 +14,17 @@ void main(){
 	scanf("%s", &username);
 	printf("Masukan Password anda\t: ");
 	scanf("%s", &pass);
+
 	if((strcmp(username,"dayat")==0 && strcmp(pass,"kataers")==0)){
-			char warehouse[10] = "menuKata";
-			print_all(warehouse);
+			menuKataers();
 			return 0;
 	}
 	else if((strcmp(username,"wahyu")==0 && strcmp(pass,"angkaers")==0)){
-			char warehouse[10] = "menuAngka";
-			print_all(warehouse);
+			menuAngkaers();
 			return 0;
 	}
 	else if((strcmp(username,"alma")==0 && strcmp(pass,"allers")==0)){
-
-		char warehouse[10] = "menuSemua";
-		print_all(warehouse);
+		menuAll();
 		return 0;
 	}else{
 		printf("\nUsername / Password yang anda masukan salah\n");
