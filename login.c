@@ -17,19 +17,19 @@ void main(){
 
 	if((strcmp(username,"dayat")==0 && strcmp(pass,"kataers")==0)){
 			menuKataers();
-			return 0;
+			return;
 	}
 	else if((strcmp(username,"wahyu")==0 && strcmp(pass,"angkaers")==0)){
 			menuAngkaers();
-			return 0;
+			return;
 	}
 	else if((strcmp(username,"alma")==0 && strcmp(pass,"allers")==0)){
-		menuAll();
-		return 0;
+			menuAll();
+			return;
+
 	}else{
 		printf("\nUsername / Password yang anda masukan salah\n");
 		system("pause");
-		exit(1);
 	}
 	
 }

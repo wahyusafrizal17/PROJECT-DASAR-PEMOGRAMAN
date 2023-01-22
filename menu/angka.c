@@ -3,6 +3,7 @@ void menuAngkaers() {
 	
     do {
             printf("\n\n");
+            printf("Anda hanya mensubscribe Fitur Olah Angka!!! :\n");
             printf("Fitur-fitur olah angka yang disediakan oleh aplikasi :\n");
             printf("1. Konversi Angka\n");
             printf("2. Faktorial\n");
@@ -12,18 +13,18 @@ void menuAngkaers() {
             printf("Pilih Menu: "); scanf("%d", &menu);
         switch(menu) {
             case 1:
-                KonversiAngka();
+                konversiAngka();
                 break;
             case 2:
-                Faktorial();
+                faktorial();
                 break;
             case 3:
-                UrutAngka();
+                urutAngka();
                 break;
             case 4:
                 break;
         }
         } while (menu != 4);
             
-        return 0;
+        // return 0;
 }

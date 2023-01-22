@@ -2,7 +2,9 @@ void hitungHuruf(){
     char kalimat[100];
     int jumlahKarakter;
 
-    printf("Program Menghitung Jumlah Karakter\n\n");
+    printf("## Program Bahasa C Menghitung Huruf## \n");
+    printf("=========================================== \n\n");
+
     printf("Input String : ");
     scanf("%s", &kalimat);
 
@@ -10,7 +12,7 @@ void hitungHuruf(){
      printf("Jumlah Karakter : %d", jumlahKarakter);
 
      getch();
-     return 0;
+    //  return 0;
 }
 
 void ubahHuruf()
@@ -29,7 +31,7 @@ void ubahHuruf()
         putchar(toupper(c));
         i++;
     }
-    return 0;
+    // return 0;
 }
 
 void balikHuruf()
@@ -55,5 +57,5 @@ void balikHuruf()
 
   printf("Hasil reverse string: %s \n", hasil);
 
-  return 0;
+  // return 0;
 }

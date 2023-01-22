@@ -3,6 +3,7 @@ void menuKataers() {
 	
     do {
             printf("\n\n");
+            printf("Anda hanya mensubscribe Fitur Olah Kata!!! :\n");
             printf("Fitur-fitur olah kata yang disediakan oleh aplikasi ini adalah :\n");
             printf("1. Hitung Huruf\n");
             printf("2. Ubah Huruf\n");
@@ -25,6 +26,6 @@ void menuKataers() {
         }
         } while (menu != 4);
             
-        return 0;
+        // return 0;
         
 }

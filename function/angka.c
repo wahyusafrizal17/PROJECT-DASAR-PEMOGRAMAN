@@ -1,18 +1,18 @@
 #include <math.h>
 
-void KonversiAngka(){
+void konversiAngka(){
 
     long int D;
     unsigned long int Mulai, B;
 
-    printf("## Program Bahasa C Konversi Angka ## \n");
+    printf("## Program Bahasa C Konversi Angka ke Biner ## \n");
     printf("=========================================== \n\n");
 
-    printf ("masukkan bilangan :");scanf ("%ld",&D);
+    printf ("Masukkan bilangan :");scanf ("%ld",&D);
 
     printf ("\n");
 
-    printf("nilai binernya =");
+    printf("Nilai binernya =");
     Mulai=pow(2,sizeof(D)*8-1);
     
     for (B=Mulai;B>0;B=B/2)
@@ -22,7 +22,7 @@ void KonversiAngka(){
     printf ("nilai hexadesimalnya = %lx\n",D);
 }
 
-void Faktorial(){
+void faktorial(){
     printf("## Program Bahasa C Menghitung Faktorial ## \n");
     printf("=========================================== \n\n");
     
@@ -37,11 +37,14 @@ void Faktorial(){
     }
     printf("%d! = %d \n",angka, hasil);
     
-    return 0;
 }
 
-void UrutAngka(){
-     int i,j,n,t, A[100];
+void urutAngka(){
+
+    printf("## Program Bahasa C Konversi Angka ## \n");
+    printf("=========================================== \n\n");
+
+    int i,j,n,t, A[100];
     printf("Masukkan banyak data : "); scanf("%d", &n);
 
     for(i=1; i<=n; i++)
@@ -69,6 +72,5 @@ void UrutAngka(){
     }
     printf("\n");
 
-    return 0;
 
 }

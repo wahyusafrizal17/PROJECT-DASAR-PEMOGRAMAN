@@ -3,6 +3,7 @@ void menuAll() {
 	
     do {
             printf("\n\n");
+            printf("Anda adalah Pelanggan VIP anda bisa menggunakan semua fitur dibawah :\n");
             printf("Fitur-fitur yang disediakan oleh aplikasi :\n");
             printf("1. Olah Kata\n");
             printf("2. Olah Angka\n");
@@ -11,30 +12,28 @@ void menuAll() {
             printf("Pilih Menu: "); scanf("%d", &menu);
         switch(menu) {
             case 1:
-                menuSatu();
+                menuKataers();
                 break;
             case 2:
-                menuDua();
+                menuAngkaers();
                 break;
             case 3:
-                menuTiga();
-                break;
-            case 4:
                 break;
         }
-        } while (menu != 4);
+        
+        } while (menu != 3);
             
-        return 0;
+        return;
 }
 
-void menuSatu() {
-	printf("Ini Menu Satu\n\n");
-}
+// void menuSatu() {
+// 	printf("Ini Menu Satu\n\n");
+// }
 
-void menuDua() {
-	printf("Ini Menu Dua\n\n");
-}
+// void menuDua() {
+// 	printf("Ini Menu Dua\n\n");
+// }
 
-void menuTiga() {
-	printf("Ini Menu Tiga\n\n");
-}
+// void menuTiga() {
+// 	printf("Ini Menu Tiga\n\n");
+// }
