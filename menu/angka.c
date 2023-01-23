@@ -3,7 +3,7 @@ void menuAngkaers() {
 	
     do {
             printf("\n\n");
-            printf("Anda hanya mensubscribe Fitur Olah Angka!!! :\n");
+            printf("Selamat Datang Di Aplikasi DAD W/ D&W. \n\n");
             printf("Fitur-fitur olah angka yang disediakan oleh aplikasi :\n");
             printf("1. Konversi Angka\n");
             printf("2. Faktorial\n");
@@ -22,6 +22,7 @@ void menuAngkaers() {
                 urutAngka();
                 break;
             case 4:
+                login();
                 break;
         }
         } while (menu != 4);

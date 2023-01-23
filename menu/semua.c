@@ -3,7 +3,7 @@ void menuAll() {
 	
     do {
             printf("\n\n");
-            printf("Anda adalah Pelanggan VIP anda bisa menggunakan semua fitur dibawah :\n");
+            printf("Selamat Datang Di Aplikasi DAD W/ D&W. \n\n");
             printf("Fitur-fitur yang disediakan oleh aplikasi :\n");
             printf("1. Olah Kata\n");
             printf("2. Olah Angka\n");
@@ -18,6 +18,7 @@ void menuAll() {
                 menuAngkaers();
                 break;
             case 3:
+                login();
                 break;
         }
         

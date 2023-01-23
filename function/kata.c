@@ -25,6 +25,7 @@ void ubahHuruf()
     scanf("%s", &input);
 
 
+    printf("Output : ");
     while(input[i])
     {
         c=input[i];
