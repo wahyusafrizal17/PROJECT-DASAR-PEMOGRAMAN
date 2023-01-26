@@ -9,7 +9,7 @@ Spesifikasi aplikasi
 
 4. Fitur-fitur olah kata yang disediakan oleh aplikasi ini adalah :
 a. Hitung Huruf: pengguna menginputkan kalimat, aplikasi menampilkan jumlah huruf dalam kalimat tersebut
-b.Ubah Huruf: pengguna menginputkan kalimat, aplikasi menampilkan ulang kalimat tersebut dalam bentuk huruf besar (capital) semua
+b. Ubah Huruf: pengguna menginputkan kalimat, aplikasi menampilkan ulang kalimat tersebut dalam bentuk huruf besar (capital) semua
 c. Balik Kalimat: pengguna menginputkan kalimat, aplikasi menampilkan kalimat dalam bentuk terbalik. Contoh: Input: Politeknik TEDC Bandung, Output: gnudnaB CDET kinketiloP
 
 5. Fitur-fitur olah angka yang disediakan oleh aplikasi
